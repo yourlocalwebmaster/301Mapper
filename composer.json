@@ -1,6 +1,6 @@
 {
     "name": "gkimball/php301mapper",
-    "description": "Maps an array of key val pars to 301 redirects",
+    "description": "Maps an array of key val pairs to 301 redirects",
     "type": "project",
     "require-dev": {
         "phpunit/phpunit": "^6.0"
