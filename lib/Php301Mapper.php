@@ -2,8 +2,6 @@
 
 namespace Lib;
 
-require_once(dirname(__DIR__).'/vendor/autoload.php');
-
 class Php301Mapper
 {
 
