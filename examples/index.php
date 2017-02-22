@@ -1,6 +1,6 @@
 <?php
-
-require_once('vendor/autoload.php');
+// include the autoloader.
+require_once(dirname(__DIR__).'/vendor/autoload.php');
 
 use Lib\MapFactory;
 
