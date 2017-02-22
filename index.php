@@ -1,8 +1,9 @@
-# Installation
-Include the Php301Mapper class to your header file.
-Add the following to the top of your 404 loader page.
+<?php
 
-```
+require_once('vendor/autoload.php');
+
+use Lib\MapFactory;
+
 $redirects = [
     '/index.php?page1OLD' => '/index.php?page1NEW',
     '/index.php?page2OLD' => '/index.php?page2NEW',
@@ -10,7 +11,3 @@ $redirects = [
 ];
 
 MapFactory::Mapper($_SERVER['REQUEST_URI'],$redirects)->run();
-```
-
-# Dev Installation  
-`composer install`
